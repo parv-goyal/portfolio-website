@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    padding: 100px;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    background: #ddd5f3;
+    box-shadow: 0 15px 50px rgba(173, 20, 20, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.box {
+    padding: 20px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #a70a0a;
+}
+
+.contact {
+    background: hsl(0, 0%, 100%)
+    ;
+    padding: 100px 0;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-basis: 50%;
+    padding: 0 50px;
+}
+
+.left .text,
+.right .text {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.left p,
+.right form input,
+.right form textarea {
+    font-size: 14px;
+    color: #847f91;
+}
+
+.icons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.row {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.row i {
+    font-size: 20px;
+    color: #020202;
+    margin-right: 10px;
+}
+
+.info {
+    font-size: 14px;
+    color: #aa2626;
+}
+
+.head {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sub-title {
+    color: #847f91;
+}
+
+.field {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.field.name input,
+.field.email input,
+.field textarea {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #c22020;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.field.name input:focus,
+.field.email input:focus,
+.field textarea:focus {
+    border-color: #830707;
+}
+
+.button {
+    text-align: right;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #ddd5f3;
+    color: #bb0f0f;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #730aa0;
+}
+
+footer {
+    padding: 20px 0;
+    background: #000000;
+    color: #fff;
+    text-align: center;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.logo a:hover {
+    text-decoration: underline;
+}
+
+
+.columns-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .column {
+    background-color: #ddd5f3;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .icons a {
+    margin-right: 25px;
+}
+
+.popup-menu {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.popup-menu.active {
+    display: block;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.popup-menu {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    background: #ddd5f3; /* Change the background color to your desired color */
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(99, 13, 139, 0.3);
+    display: none;
+}
+
+.popup-menu.active {
+    display: block;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color: #291063;
+    /* Add any additional styling for the menu item */
+}
+.highlight {
+    color: rgb(54, 59, 129); /* Change the color to your desired highlight color */
+  }
+  
+  .bigger {
+    font-size: 24px; /* Adjust the font size to make the button bigger */
+  }
+  
